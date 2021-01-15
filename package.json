@@ -1,0 +1,21 @@
+{
+  "name": "forti-vendas",
+  "version": "1.0.0",
+  "description": "API REST para o forti-vendas",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "node": "^15.4.0",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LuskaRyan",
+  "license": "ISC"
+}
